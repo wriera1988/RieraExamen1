@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RieraExamen1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="LOGIN" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
+        </Frame>
+        <Entry x:Name="txtuasuario" Placeholder="Ingrese su usuario"/>
+        <Entry x:Name="txtClave" Placeholder="Ingrese la Clave" IsPassword="True"/>
+
+        <Button x:Name="btnIngresar" Text="INGRESAR" Clicked="btnIngresar_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
